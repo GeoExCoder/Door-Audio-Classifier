@@ -14,7 +14,7 @@ Modeling:
 Implemented with scikit-learn
 
 Tested classifiers: 
-Random Forest (final model), SVM, baseline logistic regression
+Random Forest, SVM (Final model), XGBoost
 
 Evaluation: 
 GroupKFold cross-validation (ensuring clips from the same door don’t leak across train/test sets), Confusion matrix, PCA and t-SNE for feature selection 
